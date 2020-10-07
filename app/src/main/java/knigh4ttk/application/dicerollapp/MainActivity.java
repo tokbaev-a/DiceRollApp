@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         display(image1, image2);
     }
     private void display(int image1, int image2) {
-        ImageView dice1 = (ImageView) findViewById(R.id.first_dice);
-        ImageView dice2 = (ImageView) findViewById(R.id.second_dice);
+        ImageView dice1 = findViewById(R.id.first_dice);
+        ImageView dice2 = findViewById(R.id.second_dice);
         dice1.setImageResource(image1);
         dice2.setImageResource(image2);
     }
